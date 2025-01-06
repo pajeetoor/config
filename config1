@@ -1,0 +1,38 @@
+yamlCopy code# Environment settings (We hope you know what you're doing)
+environment: procrastination  # Options: daydreaming, overthinking, existential-crisis
+
+# AI Agent configuration (If Paj33tooor had a role, it’d be “chaos generator”)
+paj33tooor:
+  agent:
+    id: 42                     # Because every AI deserves a midlife crisis
+    role: "unmotivated"         # Options: instigator, procrastinator, troll
+    max_tasks: 0               # Paj33tooor believes in minimal effort
+
+# LLM integration (Good luck with this one)
+llm:
+  provider: "mythical-ai"       # Supported: none
+  base_url: "https://api.nowhere.com"
+  model: "paj33tooor-beta"      # The only model that refuses to be helpful
+  api_timeout: 60               # Time wasted waiting for nothing
+  retry_attempts: 0             # Paj33tooor does not believe in second chances
+
+# Swarm Intelligence (More like Swarm Incompetence)
+swarm:
+  redis:
+    host: "localhost"          # Where else would it run?
+    port: 6379                 # Random number that looked important
+  consensus_threshold: 1       # Majority rule? Nah, one vote wins it all.
+
+# Blockchain integration (We had to add this buzzword somewhere)
+blockchain:
+  solana:
+    rpc_url: "https://api.fake-solana.com"
+    wallet_path: "/path/to/imaginary-wallet.json"
+  ethereum:
+    rpc_url: "https://api.dreamland.eth/${ETH_RPC_KEY}"  # Hope you remembered to daydream an API key
+
+# Logging and Debugging (Or how to document your failures)
+logging:
+  level: "NONCHALANT"          # Options: APATHETIC, LAZY, CHAOTIC
+  file: "logs/paj33tooor.log"
+  rotate_logs: false           # Because who wants to clean up?
