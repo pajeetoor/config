@@ -1,0 +1,17 @@
+// environment variables
+
+pythonCopy codeimport os
+env = os.getenv("PAJ33_ENVIRONMENT", "chaotic-neutral")
+config_file = f"config.{env}.yaml"
+
+
+// reinforcement learning
+
+plaintextCopy codePAJ33_LLM_PROVIDER=mythical-ai
+PAJ33_REDIS_PASSWORD=totally_secure123
+ETH_RPC_KEY=youForgotThisDidntYou
+
+yamlCopy codeblockchain:
+  ethereum:
+    rpc_url: "https://api.dreamland.eth/${ETH_RPC_KEY}"
+
