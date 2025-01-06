@@ -1,0 +1,8 @@
+yamlCopy codeenvironment: existential-crisis
+swarm:
+  redis:
+    host: "localhost"
+    password: "whyEvenTry123"
+
+
+  // xtra info
